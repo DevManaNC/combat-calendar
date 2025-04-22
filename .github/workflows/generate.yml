@@ -1,0 +1,34 @@
+name: Generate ICS Calendar
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Tous les jours à 6h UTC
+  workflow_dispatch:      # Permet de le lancer manuellement depuis GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate .ics
+        run: python main.py
+
+      - name: Commit and push .ics
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add calendar.ics
+          git commit -m "Auto-update calendar.ics"
+          git push
