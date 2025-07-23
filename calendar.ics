@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Championnat incontesté des super-coqs
-LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, USA
-DTSTART:20250504T200000Z
-SUMMARY:Naoya Inoue vs Ramon Cardenas
-UID:6d4b3867-55da-46c8-b2ac-8a1bda0dd754@6d4b.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Titre WBC Silver des super-welters
 LOCATION:La Défense Arena\, Nanterre\, Hauts-de-Seine\, France
 DTSTART:20250418T200000Z
 SUMMARY:Bakary Samaké vs Roarke Knapp
-UID:06f010f1-44f1-4689-ba94-924a603d5c96@06f0.org
+UID:7767bd91-cd84-4b0d-a42a-8a5003fa5296@7767.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Championnat incontesté des super-coqs
+LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, USA
+DTSTART:20250504T200000Z
+SUMMARY:Naoya Inoue vs Ramon Cardenas
+UID:d2a5d9f7-94a0-4876-a17a-1a62ab1b5954@d2a5.org
 END:VEVENT
 END:VCALENDAR
