@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Titre WBC Silver des super-welters
-LOCATION:La Défense Arena\, Nanterre\, Hauts-de-Seine\, France
-DTSTART:20250418T200000Z
-SUMMARY:Bakary Samaké vs Roarke Knapp
-UID:b78daf82-f69a-4a0d-81b5-9c059c4112be@b78d.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Championnat incontesté des super-coqs
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, USA
 DTSTART:20250504T200000Z
 SUMMARY:Naoya Inoue vs Ramon Cardenas
-UID:3835272f-775a-41a6-9931-f8fab4b87c2d@3835.org
+UID:88e45526-6163-4737-be09-25117d654fe0@88e4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Titre WBC Silver des super-welters
+LOCATION:La Défense Arena\, Nanterre\, Hauts-de-Seine\, France
+DTSTART:20250418T200000Z
+SUMMARY:Bakary Samaké vs Roarke Knapp
+UID:919ccd55-aa92-4238-bae5-81daf7efce20@919c.org
 END:VEVENT
 END:VCALENDAR
